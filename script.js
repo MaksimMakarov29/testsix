@@ -105,7 +105,7 @@ else {
 }
 if (sessionStorage.getItem('upgradePerMinute')) {
 	var upgrade1 = parseInt(sessionStorage.getItem('upgradePerMinute'));//Вывод из sessionStorеджа инфы об
-	clickPerMinuteVarriable.textContent = 'LCoim в минуту:' + upgrade1;  //кликах в минуту
+	clickPerMinuteVarriable.textContent = 'LCoin в минуту:' + upgrade1;  //кликах в минуту
 }
 else {
 	var upgrade1 = 1;//Елси инфы нет
